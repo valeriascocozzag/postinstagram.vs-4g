@@ -1,0 +1,88 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: black;
+}
+.main {
+    margin: 10% auto;
+    background-color: white;
+    width: 500px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;    
+}
+.header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+span.icon {
+   height: 80%;
+   width: 0%;
+   align-self: center;
+   font-size: 1.7em;
+   margin: 4px 4px 0px 8px;
+}
+span.text {
+   weight: 80%;
+   width: 85%;
+   align-self: flex-start;
+   font-size: 1em;
+   padding: 8px 10px 0px 10px;
+}
+span.dot {
+    margin: 8px 15px 8px 0px;
+    align-self: center;
+    font-size: 1.5em;
+}
+img {
+    margin-top: auto;
+    width: 100%;
+    height: 60%;
+}
+.icons {
+    width: 100%;
+    height: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+span.heart {
+   width: 4%;
+   height: 80%;
+   align-self: center;
+   font-size: 1.5em;
+   margin: 4px 4px 0px 8px;
+}
+span.comment {
+   width: 4%;
+   height: 80%;
+   align-self: center;
+   font-size: 1.5em;
+   margin: 4px 4px 0px 8px;
+}
+span.share {
+    height: 80%;
+   width: 80%;
+   align-self: center;
+   font-size: 1.5em;
+   margin: 4px 4px 0px 8px;
+}
+span.save {
+    margin: 8px 15px 8px 0px;
+    align-self: center;
+    font-size: 1.5em;
+}
+.description {
+    width: 100%;
+    height: 30%;
+    padding: 5px;
+    font-size: 1em;
+    margin: 6px; 
+    box-sizing: border-box;  
+}
